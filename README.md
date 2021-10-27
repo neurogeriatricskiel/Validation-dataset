@@ -48,7 +48,7 @@ This reads the data into a `1x1 struct` named `data` that consists of the follow
     - 3 -> number of sensing axes (X, Y, and Z),
     - M -> number of IMUs
   - `gyro`: Nx3xM double; gyroscope data (in degrees/s) with N discrete time steps, 3 directions and M number of IMUs
-  - `magn`: Nx3xM double; magnetometer data (in ?) with N discrete time steps, 3 directions and M number of IMUs
+  - `magn`: Nx3xM double; magnetometer data (in Gauss) with N discrete time steps, 3 directions and M number of IMUs
   - `fs`: double; sampling frequency (in Hz)
   - `imu_location`: 1xM cell; cell array with the positions of the IMUs (see: above)
 - **OMC data**
